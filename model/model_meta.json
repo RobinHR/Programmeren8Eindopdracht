@@ -1,0 +1,31 @@
+{
+  "inputUnits": [
+    3
+  ],
+  "outputUnits": 1,
+  "inputs": {
+    "age": {
+      "dtype": "number",
+      "min": 23,
+      "max": 28
+    },
+    "overall": {
+      "dtype": "number",
+      "min": 60,
+      "max": 70
+    },
+    "potential": {
+      "dtype": "number",
+      "min": 75,
+      "max": 85
+    }
+  },
+  "outputs": {
+    "value_eur": {
+      "dtype": "number",
+      "min": 300000,
+      "max": 30000000
+    }
+  },
+  "isNormalized": true
+}
